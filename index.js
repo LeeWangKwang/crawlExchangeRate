@@ -36,5 +36,5 @@ async function getExchangeRate(type = "USDKRW") {
 
 const parse = function parseExchangeRate($) {
 
-  return exchangeRate = $('.up .num').first().text();
+  return exchangeRate = $('tr .num').first().text();
 }
